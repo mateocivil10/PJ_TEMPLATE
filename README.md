@@ -1,6 +1,15 @@
+## Setup the tools
+* Anaconda -> https://docs.anaconda.com/anaconda/install/
+1. Recuerda agregar las variables de entorno de anaconda al path -> abres el anaconda prompt y poner "where conda"
+* VS -> https://code.visualstudio.com/download
+2. Recuerda instalar el tool de python para que interprete correctamente el environment.
+3. Para cambiar a que ejecute con el cmd en vez del power shell ve a file, preferences, settings-> escribe terminal y busca el apartado terminal>integrated>defaulprofile
+* git bash -> https://git-scm.com/downloads
+
 ## Install environment :rocket:
 ----------------------
 * conda env create -p .\venv -f .\bin\local\environment.yml :relaxed: 
+* Para activar el environment indefinidamente -> ctrl+shift+p ->"Terminal: Select Default Profile"
 
 ## Github 
 ----------------------
