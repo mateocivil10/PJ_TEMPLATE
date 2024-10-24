@@ -58,3 +58,6 @@ def TMensual(Tmort):
     
     return interpolated_df
 
+def tmort_filtered(df,edad):
+    qx_vec=df[df['x']>=edad]
+    return qx_vec
